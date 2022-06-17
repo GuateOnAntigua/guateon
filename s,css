@@ -1,0 +1,48 @@
+body {
+	background: linear-gradient(-45deg, #f5d443, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+	height: 100vh;
+}
+.title{
+    	text-align: center;
+    	font-style: oblique;
+    	color: antiquewhite;
+    	font-family: monospace;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@media screen and (min-width: 601px) {
+	.h1yc {
+	  font-size: 50px;
+	}
+	.h3yc {
+		font-size: 20px;
+	  }
+
+  }
+  
+ 
+  @media screen and (max-width: 600px) {
+	.h1yc {
+	  font-size: 20px;
+	}
+	.h3yc {
+		font-size: 10px;
+	  }
+  }
